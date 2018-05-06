@@ -41,8 +41,8 @@ public class DemoService {
             largerList = inputLines2;
         }
 
-        //sort list for better performance
-        Collections.sort(shorterList);
+        //sort shorter list for better performance
+        Collections.sort(shorterList, new LexicComparator());
 
         //create the list for the output file
         List<String> outputLines = new ArrayList<>();

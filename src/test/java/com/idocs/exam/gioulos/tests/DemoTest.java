@@ -64,7 +64,7 @@ public class DemoTest {
         expectedLines1.add("takis");
         expectedLines1.add("kostas");
         expectedLines1.add("savvas");
-        expectedLines1.add("mitsos");
+        expectedLines1.add("Mitsos");
         expectedLines1.add("maria");
         expectedLines1.add("mar");
         return expectedLines1;
@@ -74,7 +74,7 @@ public class DemoTest {
         List<String> expectedLines2 = new ArrayList<>();
         expectedLines2.add("maria");
         expectedLines2.add("nikos");
-        expectedLines2.add("mitsos");
+        expectedLines2.add("Mitsos");
         expectedLines2.add("thanasis");
         expectedLines2.add("alekos");
         expectedLines2.add("anna");
@@ -90,7 +90,7 @@ public class DemoTest {
     private List<String> dummyOutput(){
         List<String> expectedLines = new ArrayList<>();
         expectedLines.add("maria");
-        expectedLines.add("mitsos");
+        expectedLines.add("Mitsos");
         expectedLines.add("nikos");
         return expectedLines;
     }
